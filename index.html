@@ -3,6 +3,11 @@
 <head>
 	<title>myPage</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		document.cookie = "username=John Smith; expires=Thu, 10 Dec 2017 12:00:00 UTC; path=/";
+		var FirstCookieUsed = document.cookie.split(";")[5];
+		console.log(FirstCookieUsed);
+	</script>
 </head>
 <body>
 	<div class="server"> Server is up and running!!!</div>
